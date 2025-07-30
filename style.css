@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    /* overflow: hidden; */
+}
+
+
+* {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* header  */
+.header-logo{
+    width: 70px;
+    height: 70px;
+}
+
+.bg-header-mycolor{
+    background-color: #19495d;
+}
+
+.nav-item{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn{
+    --bs-btn-border-radius:none;
+}
+
+/* Hero Section */
+
+.para{
+    font-size: 12px;
+    color: #19495d;
+    font-weight: 500;
+}
+ .bg-mycolor {
+    background-color:#F2F1F4 ;
+ }
+
+
+.logo-hero {
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: none;
+}
+
+
+/* featured section */
+/* .img-fluid{
+    width: 200px;
+    height: 200px;
+} */
+
+/* third section  */
+.card-body{
+    background-color: #F2F1F4;
+}
+
+.card-body img{
+    width: 80px;
+    height: 80px;
+}
+
+
+/* section4  */
+
+.work-color{
+    background-color: #19495d;
+}
+
+
+.work-img{
+    width: 500px;
+    height: 600px;
+    object-fit:cover;
+} 
+
+/* .work-2{
+    background-color: #ed4368;
+} */
+
+
+/* last section  */
+.work-color-2{
+    background-color: #ed4368;
+}
+
+/* Mobile view: max 767px (Bootstrap's breakpoint for sm devices) */
+@media (max-width: 767px) {
+  .work-img {
+    width: 100%;         
+    height: auto;        
+    margin-left: -5px;
+  }
+}
