@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     /* box-sizing: border-box; */
@@ -7,43 +7,44 @@
 
 
 * {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
 /* header  */
-.header-logo{
+.header-logo {
     width: 70px;
     height: 70px;
 }
 
-.bg-header-mycolor{
+.bg-header-mycolor {
     background-color: #19495d;
 }
 
-.nav-item{
+.nav-item {
     font-weight: 500;
     font-size: 14px;
 }
 
-.btn{
+.btn {
     background-color: #ed4368;
     color: white;
 }
 
 /* Hero Section */
 
-.para{
+.para {
     font-size: 12px;
     color: #19495d;
     font-weight: 500;
 }
- .bg-mycolor {
-    background-color:#F2F1F4 ;
- }
+
+.bg-mycolor {
+    background-color: #F2F1F4;
+}
 
 
 .logo-hero {
@@ -62,49 +63,53 @@
 } */
 
 /* third section  */
-.card-body{
+.card-body {
     background-color: #F2F1F4;
 }
 
-.card-body img{
+.card-body img {
     width: 80px;
     height: 80px;
 }
 
-.mb-4{
+.mb-4 {
     color: #ed4368;
 }
 
-.line{
-    height: 3px; 
-    background-color:#19495d;
+.line {
+    height: 3px;
+    background-color: #19495d;
     border: none;
 }
 
 
 /* section4  */
 
-.work-color{
+.work-color {
     background-color: #19495d;
 }
 
 
-.work-img{
+.work-img {
     width: 500px;
     height: 600px;
-    object-fit:cover;
-} 
+    object-fit: cover;
+}
 
-.line-2{
-    height: 3px; 
-    background-color:#ffffff;
+.line-2 {
+    height: 3px;
+    background-color: #ffffff;
     border: none;
 }
 
 /* Second Last Section  */
-.bg-primary{
+.bg-primary {
     --bs-bg-opacity: 1;
     background-color: #19495d;
+}
+
+.h6, h6{
+    color: #ed4368;
 }
 
 /* .work-2{
@@ -113,15 +118,15 @@
 
 
 /* last section  */
-.work-color-2{
+.work-color-2 {
     background-color: #ed4368;
 }
 
 /* Mobile view: max 767px (Bootstrap's breakpoint for sm devices) */
 @media (max-width: 767px) {
-  .work-img {
-    width: 100%;         
-    height: auto;        
-    margin-left: -5px;
-  }
+    .work-img {
+        width: 100%;
+        height: auto;
+        margin-left: -5px;
+    }
 }
